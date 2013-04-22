@@ -32,3 +32,8 @@ No. People with direct commit access are just more powerful
 automergers. It is your job to maintain the code. So if you
 notice a typo in someone's function please do not hesitate to
 fix it for them.
+
+> What license are we commiting under?
+
+MIT. I am a copyleft guy but for this endeavor a
+liberal license will work best.
