@@ -15,10 +15,26 @@ import "time"
 
 func daniel_dressler() {
 	fmt.Printf("Hello from Calgary!\n")
-	Sleep(3000 * time.Millisecond) // Please decrement as needed!
+	time.Sleep(2990 * time.Millisecond) // Please decrement as needed!
+}
+
+func SteveTheAbel_FizzBuzz() {
+	for i := 1; i <= 100; i++ {
+		if i % 15 == 0 {
+			fmt.Printf("FizzBuzz")
+		} else if i % 3 == 0 {
+			fmt.Printf("Fizz")
+		} else if i % 5 == 0 {
+			fmt.Printf("Buzz")
+		} else {
+			fmt.Printf("%d", i)
+		}
+		fmt.Printf("\n");
+	}
 }
 
 func main() {
+	SteveTheAbel_FizzBuzz()
 	daniel_dressler()
 	fmt.Printf("Hope to see you again!\n")
 }
