@@ -16,6 +16,16 @@ Our rules:
 - Remember to keep it kid safe.
 
 FAQ:
+> How can I get started with Golang?
+
+I had a lot of fun going through Golang's tour.
+After that the general documentation was very
+well done!
+- Installing: (http://golang.org/doc/install)
+- Tour: (http://tour.golang.org/)
+- Everything: (http://golang.org/doc/)
+
+
 > 3 seconds on what computer?
 
 Take your best guess on how your computer compares to average.
