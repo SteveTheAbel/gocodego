@@ -1,4 +1,4 @@
-Go! Code!
+Go! Code! Go!
 ======
 
 A Social Coding Experiment in Golang inspired by [socode.git](git@github.com:sricola/socode.git).
