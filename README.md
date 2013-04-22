@@ -3,7 +3,13 @@ Go! Code!
 
 A Social Coding Experiment in Golang inspired by [socode.git](git@github.com:sricola/socode.git).
 
-Four steps, fork -> edit -> open a pull -> merge
+Five steps:
+
+1. Think of somethig cool
+2. Fork the repo
+3. Implement your cool idea
+4. Open a pull request
+5. Watch as it gets merged!
 
 Our goals:
 - Do as many cool things as possible in about 3 seconds of runtime.
