@@ -12,6 +12,7 @@ package main
 
 import "fmt"
 import "time"
+import "math/rand"
 
 func daniel_dressler() {
 	fmt.Printf("Hello from Calgary!\n")
@@ -19,7 +20,7 @@ func daniel_dressler() {
 }
 
 func SteveTheAbel_FizzBuzz() {
-	for i := 1; i <= 100; i++ {
+	for i := 1; i <= SteveTheAbel_rand(100); i++ {
 		if i % 15 == 0 {
 			fmt.Printf("FizzBuzz")
 		} else if i % 3 == 0 {
@@ -31,6 +32,11 @@ func SteveTheAbel_FizzBuzz() {
 		}
 		fmt.Printf("\n");
 	}
+}
+
+func SteveTheAbel_rand(upto int) int {
+	rand.Seed(time.Now().UTC().UnixNano())
+	return rand.Intn(upto);
 }
 
 func main() {
